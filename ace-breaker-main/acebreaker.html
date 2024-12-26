@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ACE BREAKER - 동철띠의 헬로랜드</title>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="acebreaker.css"/>
+        <script src="jquery-1.7.min.js"></script>
+    </head>
+    <body>
+        <h1>ACE BREAKER</h1>
+        <div class="link">1등하면 <a href="https://img.kr.news.samsung.com/kr/wp-content/uploads/2015/11/마이스토리15편_03.jpg">현질/스타벅스 쿠폰 20만동</a></div>
+
+        <div>
+            <img src="img/skull.png" id="skull">
+        </div>
+
+        <img class="preload" src="img/cards.png"/>
+
+        <div id="card-table">
+            <button id="deal">DEAL</button>
+
+            <button id="place-bet" style="display: none;">PLACE BET</button>
+            <button id="redeal" style="display: none;">REDEAL</button>
+
+            <button id="close-bet" style="display: none;">CLOSE BET</button>
+            <button id="fold" style="display: none;">FOLD</button>
+
+            <button id="new-game" style="display: none;">NEW GAME</button>
+
+            <button id="open" style="display: none;">OPEN</button>
+
+            <div id="player-money">0</div>
+            <div id="win-amount" style="display: none;">0</div>
+
+            <input type="number" id="bet-dealer" placeholder="DEALER" style="display: none;" readonly />
+            <input type="number" id="bet-player" placeholder="PLAYER" style="display: none;" />
+            <input type="range" min="0" max="100" value="0" step="10" id="bet-slider" style="display: none;" />
+
+            <div id="card-c0">
+                <span class="card-c-number"></span>
+            </div>
+            <div id="card-c1">
+                <span class="card-c-number"></span>
+            </div>
+            <div id="card-c2">
+                <span class="card-c-number"></span>
+            </div>
+
+            <img src="img/pop.gif" class="pop" id="pop-c0" style="display: none;">
+            <img src="img/pop.gif" class="pop" id="pop-c1" style="display: none;">
+            <img src="img/pop.gif" class="pop" id="pop-c2" style="display: none;">
+
+            <div id="high-c0" class="high-low" style="display: none;">High</div>
+            <div id="low-c1" class="high-low" style="display: none;">Low</div>
+            <div id="high-c2" class="high-low" style="display: none;">High</div>
+        </div>
+
+        <footer>
+            cards.js was created by <a href="http://einaregilsson.com">Einar Egilsson</a> and is licensed under the MIT license.
+        </footer>
+
+        <script src="deckType.js"></script>
+        <script src="cards.js"></script>
+        <script src="acebreaker.js"></script>
+    </body>
+</html>

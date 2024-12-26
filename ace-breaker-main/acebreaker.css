@@ -1,0 +1,250 @@
+body {
+    position:relative;
+    width: 1280px;
+    background: #680000;
+    margin:0px auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 50px;
+}
+
+#skull {
+    position: absolute;
+    left: 870px;
+    top: -10px;
+    width: 80px;
+}
+
+#buttons {
+    text-align:center;
+}
+
+.link {
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+    color: rgb(178, 178, 178);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(178, 178, 178);
+}
+
+a img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+}
+button {
+    height:30px;
+    width:100px;
+    margin:8px auto;
+}
+
+input[type="number"] {
+    height:20px;
+    width:92px;
+    margin:8px auto;
+    text-align: right;
+}
+
+img.preload {
+    display:none;
+}
+h1 {
+    font-family: 'Metal Mania', system-ui;
+    color: #111;
+    font-size: 5em;
+    text-align:center;
+    padding:0px;
+    margin:10px auto;
+}
+
+#card-table {
+    background-color:#303030;
+    height:720px;
+    width:1280px;
+    border:solid 6px rgb(0, 0, 0);
+    box-shadow:#111 1px 1px 2px;
+}
+
+#deal {
+    position: absolute;
+    left:1000px;
+    top:338px;
+}
+
+#redeal {
+    position: absolute;
+    left:1120px;
+    top:338px;
+}
+
+#place-bet {
+    position: absolute;
+    left:1000px;
+    top:338px;
+}
+
+#fold {
+    position: absolute;
+    left:1120px;
+    top:338px;
+}
+
+#new-game {
+    position: absolute;
+    left:1000px;
+    top:338px;
+}
+
+#open {
+    position: absolute;
+    left:1000px;
+    top:338px;
+}
+
+#close-bet {
+    position: absolute;
+    left:1000px;
+    top:338px;
+}
+
+#card-c0 {
+    position: absolute;
+    left:408px;
+    top:350px;
+    z-index: 999;
+    width: 69px;
+    text-align: center;
+    font-family: 'Metal Mania', system-ui;
+    text-transform: uppercase;
+}
+
+#card-c1 {
+    position: absolute;
+    left:608px;
+    top:350px;
+    z-index: 999;
+    width: 69px;
+    text-align: center;
+    font-family: 'Metal Mania', system-ui;
+    text-transform: uppercase;
+}
+
+#card-c2 {
+    position: absolute;
+    left:808px;
+    top:350px;
+    z-index: 999;
+    width: 69px;
+    text-align: center;
+    font-family: 'Metal Mania', system-ui;
+    text-transform: uppercase;
+}
+
+#pop-c0 {
+    position: absolute;
+    left:288px;
+    top:260px;
+    z-index: 9999;
+    width: 300px;
+}
+
+#pop-c1 {
+    position: absolute;
+    left:488px;
+    top:260px;
+    z-index: 9999;
+    width: 300px;
+}
+
+#pop-c2 {
+    position: absolute;
+    left:688px;
+    top:260px;
+    z-index: 9999;
+    width: 300px;
+}
+
+#high-c0 {
+    color: deepskyblue;
+    position: absolute;
+    left:408px;
+    top:470px;
+    width: 69px;
+    text-align: center;
+}
+
+#low-c1 {
+    color: orangered;
+    position: absolute;
+    left:608px;
+    top:470px;
+    width: 69px;
+    text-align: center;
+}
+
+#high-c2 {
+    color: deepskyblue;
+    position: absolute;
+    left:808px;
+    top:470px;
+    width: 69px;
+    text-align: center;
+}
+
+
+span.card-c-number {
+    font-size: 1em;
+}
+
+#player-money {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+#win-amount {
+    position: absolute;
+    right: 15px;
+    bottom: 40px;
+    font-size: 1.2em;
+}
+
+#bet-dealer {
+    position: absolute;
+    left:1000px;
+    top:300px;
+}
+
+#bet-player {
+    position: absolute;
+    left:1000px;
+    top:380px;
+}
+
+#bet-slider {
+    position: absolute;
+    left:1116px;
+    top:392px;
+    width: 105px;
+}
+
+footer {
+    font-size : 12px;
+    color:grey;
+    margin:10px;
+}
+
+footer a, footer a:visited{
+    color:grey;
+}
+
+footer a:hover {
+    color:black;
+}
+
